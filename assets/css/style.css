@@ -174,7 +174,7 @@ section {
 }
 
 .balao1::before {
-    content: url(/assets/images/section1/balao1.png);
+    content: url(../images/section1/balao1.png);
     position: absolute;
     z-index: -1;
     left: -3%;
@@ -189,7 +189,7 @@ section {
 }
 
 .balao2:before {
-    content: url(/assets/images/section1/balao2.png);
+    content: url(../images/section1/balao2.png);
     position: absolute;
     left: -1.5%;
     bottom: -5%;
@@ -205,7 +205,7 @@ section {
 }
 
 .balao3:before {
-    content: url(/assets/images/section1/balao3.png);
+    content: url(../images/section1/balao3.png);
     position: absolute;
     z-index: -1;
     right: -1.8%;
@@ -220,7 +220,7 @@ section {
 }
 
 .balao4:before {
-    content: url(/assets/images/section1/balao4.png);
+    content: url(../images/section1/balao4.png);
     position: absolute;
     z-index: -1;
     right: -1.8%;
@@ -421,7 +421,7 @@ hr {
     bottom: 30%;
     left: 3%;
     display: inline-flex;
-    align-items: end;
+    align-items: center;
 }
 
 .cultura .cultura-item-inverso .balao4 {
@@ -439,7 +439,6 @@ hr {
     align-items: center;
     aspect-ratio: 1 / 1;
     position: relative;
-    display: inline-block;
     margin-right: 5px;
 }
 
@@ -694,25 +693,25 @@ footer .section-texto {
     }  
     
     .balao1::before {
-        content: url(/assets/images/section1/balao.png);
+        content: url(../images/section1/balao.png);
         left: -4%;
         bottom: -10%;
     }
 
     .balao2:before {
-        content: url(/assets/images/section1/balao2g.png);
+        content: url(../images/section1/balao2g.png);
         left: -1%;
         bottom: -8%;
     }
 
     .balao3:before {
-        content: url(/assets/images/section1/balao3g.png);
+        content: url(../images/section1/balao3g.png);
         right: -2%;
         bottom: -7%;
     }
 
     .balao4:before {
-        content: url(/assets/images/section1/balao4g.png);
+        content: url(../images/section1/balao4g.png);
         right: -3%;
         bottom: -11%;
     }
@@ -777,25 +776,25 @@ footer .section-texto {
     }
 
     .balao1::before {
-        content: url(/assets/images/section1/balao.png);
+        content: url(../images/section1/balao.png);
         left: -3.5%;
         bottom: -13%;
     }
 
     .balao2:before {
-        content: url(/assets/images/section1/balao2g.png);
+        content: url(../images/section1/balao2g.png);
         left: -2%;
         bottom: -8%;
     }
 
     .balao3:before {
-        content: url(/assets/images/section1/balao3g.png);
+        content: url(../images/section1/balao3g.png);
         right: -2%;
         bottom: -10%;
     }
 
     .balao4:before {
-        content: url(/assets/images/section1/balao4g.png);
+        content: url(../images/section1/balao4g.png);
         right: -2%;
         bottom: -9%;
     }
@@ -997,37 +996,37 @@ footer .section-texto {
     }
 
     .balao1::before {
-        content: url(/assets/images/section1/balao.png);
+        content: url(../images/section1/balao.png);
         left: -3.5%;
         bottom: -13%;
     }
 
     .balao2:before {
-        content: url(/assets/images/section1/balao2g.png);
+        content: url(../images/section1/balao2g.png);
         left: -1%;
         bottom: -8%;
     }
 
     .balao3:before {
-        content: url(/assets/images/section1/balao3g.png);
+        content: url(../images/section1/balao3g.png);
         right: -1.8%;
         bottom: -6%;
     }
 
     .balao4:before {
-        content: url(/assets/images/section1/balao4g.png);
+        content: url(../images/section1/balao4g.png);
         right: -4%;
         bottom: -9%;
     }
 
     .cultura .balao2:before {
-        content: url(/assets/images/section1/balao2g.png);
+        content: url(../images/section1/balao2g.png);
         left: -4%;
         bottom: -8%;
     }
 
     .cultura .balao4:before {
-        content: url(/assets/images/section1/balao4g.png);
+        content: url(../images/section1/balao4g.png);
         right: -2%;
         bottom: -9%;
     }
