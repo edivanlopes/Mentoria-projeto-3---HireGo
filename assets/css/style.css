@@ -1152,10 +1152,6 @@ footer .section-texto {
         grid-row: 3;
     }
 
-    footer {
-        padding: 96px 120px;
-    }
-
     .link {
         display: flex;
         justify-content: space-between;
@@ -1171,7 +1167,7 @@ footer .section-texto {
 
     .referencias {
         display: flex;
-        /* gap: 190px; */
+        gap: 190px;
         flex-direction: row;
         flex-wrap: wrap;
         justify-content: space-between;
@@ -1189,12 +1185,12 @@ footer .section-texto {
         justify-content: space-between;
     }
 
-    .referencias-item ul li {
+    .referencias-item ul li a {
         padding: 8px 0;
         color: var(--cor-footer-link);
     }
 
-    .referencias-item ul li:nth-child(1) {
+    .referencias-titulo a:nth-child(1) {
         font-weight: 500;
         color: white;
         padding-bottom: 16px;
