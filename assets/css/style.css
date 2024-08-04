@@ -1171,7 +1171,10 @@ footer .section-texto {
 
     .referencias {
         display: flex;
-        gap: 190px;
+        /* gap: 190px; */
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
     }
 
     .section-texto {
