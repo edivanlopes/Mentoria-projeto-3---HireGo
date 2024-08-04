@@ -67,6 +67,7 @@ section {
     color: var(--cortitulo);
     letter-spacing: -1px;
     transition: all .3s;
+    cursor: pointer;
 }
 
 .botao:hover{
@@ -249,7 +250,7 @@ section {
     max-width: 100%;
 }
 
-.marcas-efeito-esquerda {
+.marcas-efeito-esquerda, .marcas-efeito-direita {
     width: 30%;
     height: auto;
     background-image: linear-gradient(to right, var(--branco) 10%, rgba(255, 255, 255, 0));
@@ -258,8 +259,6 @@ section {
 }
 
 .marcas-efeito-direita {
-    width: 30%;
-    height: auto;
     background-image: linear-gradient(to left, var(--branco) 10%, rgba(255, 255, 255, 0));
 }
 
@@ -1186,8 +1185,11 @@ footer .section-texto {
     }
 
     .referencias-item ul li a {
-        padding: 8px 0;
         color: var(--cor-footer-link);
+    }
+
+    .referencias-item li {
+        padding: 16px 0;
     }
 
     .referencias-titulo a:nth-child(1) {
