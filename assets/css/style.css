@@ -893,6 +893,46 @@ footer .section-texto {
         gap: 10px;
     }
 
+    .sub-cabecalho-desktop {
+        position: relative;
+    }
+
+    .sub-cabecalho-cascata {
+        position: absolute;
+        top: 0;
+        display: none;
+        padding-top: 72px;
+        box-shadow: 1px 1px 17px 1px #00000038;
+    }
+
+    .sub-cabecalho-desktop .sub-cabecalho-cascata a {
+        padding: 40px 90px 0 15px;
+        font-size: 2rem;
+    }
+
+    .sub-cabecalho-desktop:hover .sub-cabecalho-cascata {
+        display: block;
+    }
+
+    .sub-cabecalho-desktop img {
+        transition: all 0.5s ease;
+    }
+
+    .sub-cabecalho-desktop:hover img {
+        transform: rotate(180deg);
+        transition: all 0.5s ease;
+    }
+
+    .sub-cabecalho-cascata a {
+        border-bottom: 7px solid transparent;
+        transition: border-bottom 1s ease;
+    }
+
+    .sub-cabecalho-cascata a:hover {
+        border-bottom-color: var(--cor-balao2);
+        transition: border-bottom 1s ease;
+    }
+
     .cabecalho-desktop-item {
         display: flex;
         align-items: center;
@@ -909,15 +949,15 @@ footer .section-texto {
         transition: all .3s;
         white-space: nowrap;
         flex-shrink: 1;
+        background-color: var(--branco);
     }
 
-    .cabecalho-desktop-item a:hover {
+    /* .cabecalho-desktop-item a:hover {
        transform: scale(1.1);
-    }
+    } */
 
-    .cabecalho-desktop-item a:nth-child(1) {
+    .cabecalho-desktop-item .botao:nth-child(1) {
         padding: 4px 8px;
-        
     }
 
     .cabecalho-desktop-item a img {
