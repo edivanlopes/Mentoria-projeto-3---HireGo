@@ -598,6 +598,16 @@ footer .footer-titulo h2 {
     display: flex;
     justify-content: left;
     gap: 25px;
+    transition: all .3s;
+}
+
+.item-redes-sociais img {
+    transition: all .3s;
+}
+
+.item-redes-sociais img:hover {
+    transform: scale(1.2);
+    transition: all .3s;
 }
 
 .redes-idioma {
@@ -628,6 +638,7 @@ footer .footer-titulo h2 {
     display: flex;
     flex-direction: column;
     padding: 8px;
+    transition: all .3s;
 }
 
 footer .section-texto {
@@ -1218,7 +1229,7 @@ footer .section-texto {
     .section-texto {
         font-size: 1.4rem;
         padding: 16px 18px 0 0;
-        letter-spacing: -1px;
+        letter-spacing: normal;
     }
 
     .redes-idioma {
@@ -1229,15 +1240,22 @@ footer .section-texto {
 
     .referencias-item ul li a {
         color: var(--cor-footer-link);
+        transition: all .3s;
     }
 
-    .referencias-item li {
-        padding: 16px 0;
+    .referencias-item ul li a:hover {
+        color: var(--branco);
+        transition: all .3s;
     }
 
     .referencias-titulo a:nth-child(1) {
         font-weight: 500;
         color: white;
         padding-bottom: 16px;
+    }
+
+    .footer-link:hover {
+        color: var(--branco);
+        transition: all .3s;
     }
 }
